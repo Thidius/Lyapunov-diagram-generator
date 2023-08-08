@@ -53,7 +53,7 @@ Modify these parameters in the script to explore different system behaviours.
 
 ## Examples
 
-Here are some examples using the logistic recurrence relation $x_{n+1} = r \cdot x_n \cdot (1-x_n)$ for some different sequences.
+Here are some examples using the logistic recurrence relation $x_{n+1} = r \cdot x_n \cdot (1-x_n)$ for some different sequences and resolutions. The parameters can be found in the title of each diagram. Notice the cool fractals that are formed!
 
 <p align = "center">
   <img src = "https://github.com/Thidius/Lyapunov-diagram-generator/assets/121384892/0081dd20-9699-46d0-a959-27a690e0e533" alt = "Fig1" width = "300">
