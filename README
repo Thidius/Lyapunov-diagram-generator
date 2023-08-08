@@ -7,8 +7,8 @@ The Lyapunov-diagram-generator is a tool to be used to further study the stabili
 - [Lyapunov Exponents](#lyapunov-exponents)
 - [Lyapunov Diagram Generator](#lyapunov-diagram-generator)
   - [Installation](#installation)
-  - [Usage](#usage)
   - [Parameters](#parameters)
+  - [Usage](#usage)
 - [Examples](#examples)
 - [References](#references)
 
@@ -51,6 +51,10 @@ cd lyapunov-diagram-generator
 
 Modify these parameters in the script to explore different system behaviours. 
 
+### Usage
+
+To generate a Lyapunov diagram, change the parameters and the given reccurence relation of your choice. Notice that it's important to also for hand calculate the derivative of the recurrence relation with respect to $x_n$ too. Don't also forget to adjust the region of interest for your parameters $r_1$ and $r_2$. Thereafter, run the code and enjoy your result. In the next section, some examples will be presented to you.
+
 ## Examples
 
 Here are some examples using the logistic recurrence relation $x_{n+1} = r \cdot x_n \cdot (1-x_n)$ for some different sequences and resolutions. The parameters can be found in the title of each diagram. Notice the cool fractals that are formed!
@@ -60,6 +64,8 @@ Here are some examples using the logistic recurrence relation $x_{n+1} = r \cdot
   <img src = "https://github.com/Thidius/Lyapunov-diagram-generator/assets/121384892/97f60f46-bd4f-4c64-b4f8-788840449209" alt = "Fig1" width = "300">
   <img src = "https://github.com/Thidius/Lyapunov-diagram-generator/assets/121384892/6096fd59-04f7-45a1-9260-7d5bd6caaee0" alt = "Fig1" width = "300">
 </p>
+
+Observe that the predefined reccurence relation in the code is the logistic reccurence relation. You are of course free to change it to whatever system you want to study.
 
 ## References
 
