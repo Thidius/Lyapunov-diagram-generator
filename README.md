@@ -21,12 +21,13 @@ $$
 |\delta \boldsymbol{\mathrm{Z}}(t)| \sim e^{\lambda t}|\delta \boldsymbol{\mathrm{Z_0}}|
 $$
 
-where $\lambda$ is the Lyapunov exponent. The lambdas vary with variations in orientation of the initial seperation vector which introduces a spectrum of Lyapunov exponents (with dimension equal to the dimensionality of the phase space). The Lyapunov exponents can be calculated using the following formula [1]
+where $\lambda$ is the Lyapunov exponent. The lambdas vary with variations in orientation of the initial seperation vector which introduces a spectrum of Lyapunov exponents (with dimension equal to the dimensionality of the phase space). The Lyapunov exponents can be calculated using the following formula
 
 $$
-\lambda = \lim_{n\rightarrow \infty} \frac{1}{n} \sum_{i=0}^{n-1} \ln | f'(x_i) |. 
+\lambda = \lim_{n\rightarrow \infty} \frac{1}{n} \sum_{i=0}^{n-1} \ln | f'(x_i) | 
 $$
 
+where $f(x)$ is the mapping used in the reccurence relation [1].
 ## Lyapunov Diagram Generator
 
 The Lyapunov Diagram Generator is a Python-based tool that allows you to visualize the behavior of a dynamic system by generating Lyapunov diagrams. These diagrams are two-dimensional plots where each point $(r_1, r_2)$ constitutes the values used within the user defined recurrence-relation. The corresponding output on this two-dimensional grid is the Lyapunov exponent of the dynamical system. 
