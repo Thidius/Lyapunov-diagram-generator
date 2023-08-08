@@ -55,12 +55,11 @@ Modify these parameters in the script to explore different system behaviours.
 
 Here are some examples using the logistic recurrence relation $x_{n+1} = r \cdot x_n \cdot (1-x_n)$ for some different sequences.
 
-![Fig1](https://github.com/Thidius/Lyapunov-diagram-generator/assets/121384892/0081dd20-9699-46d0-a959-27a690e0e533)
-
-![Fig2](https://github.com/Thidius/Lyapunov-diagram-generator/assets/121384892/97f60f46-bd4f-4c64-b4f8-788840449209)
-
-![Fig3](https://github.com/Thidius/Lyapunov-diagram-generator/assets/121384892/6096fd59-04f7-45a1-9260-7d5bd6caaee0)
-
+<p align = "center">
+  <img src = "https://github.com/Thidius/Lyapunov-diagram-generator/assets/121384892/0081dd20-9699-46d0-a959-27a690e0e533" alt = "Fig1" width = "300">
+  <img src = "https://github.com/Thidius/Lyapunov-diagram-generator/assets/121384892/97f60f46-bd4f-4c64-b4f8-788840449209" alt = "Fig1" width = "300">
+  <img src = "https://github.com/Thidius/Lyapunov-diagram-generator/assets/121384892/6096fd59-04f7-45a1-9260-7d5bd6caaee0" alt = "Fig1" width = "300">
+</p>
 
 ## References
 
