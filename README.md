@@ -54,7 +54,7 @@ Modify these parameters in the script to explore different system behaviours.
 
 ### Usage
 
-To generate a Lyapunov diagram, change the parameters and the given reccurence relation of your choice. Notice that it's important to also for hand calculate the derivative of the recurrence relation with respect to $x_n$ too. Don't also forget to adjust the region of interest for your parameters $r_1$ and $r_2$. Thereafter, run the code and enjoy your result. In the next section, some examples will be presented to you.
+To generate a Lyapunov diagram, change the parameters and the given reccurence relation `f(x_n,r)` of your choice. Notice that it's important to also for hand calculate the derivative of the recurrence relation with respect to $x_n$, `f_prime(x_n,r)` too. Don't also forget to adjust the region of interest for your parameters $r_1$ and $r_2$ inside the `lyapunov_diagram` function. Thereafter, run the code and enjoy your result. In the next section, some examples will be presented to you.
 
 ## Examples
 
